@@ -31,6 +31,7 @@ async function getAllBusinesses(fileName: string) {
 
     const businesses: any[] = [];
 
+    // Need to update the end of the loop to match the number of pages
     for (let i = 0; i < 2; i++) {    
         await page.type('#txtCommonPageNo', (i + 1).toString());
         await page.click('#lkGoPage');

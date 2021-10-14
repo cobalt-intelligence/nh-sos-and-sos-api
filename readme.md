@@ -10,6 +10,8 @@ You will need a Cobalt Intelligence API key from [here](https://cobaltintelligen
 
 Once you have the API key, you'll want to replace the dummy values in the `.sample.env` file and rename it to `.env`.
 
+Make sure to do an initial search on the New Hampshire Secretary of State search and update the number of pages in the for loop in the `getAllBusinesses` function.
+
 [Full Guide](https://cobaltintelligence.com/blog/getting-interesting-business-data-nh-and-sos-api/)
 
 ### Prerequisites
